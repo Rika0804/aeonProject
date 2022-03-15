@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<job id="B18B0036" xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	version="1.0">
+
+	<step id="B18B0036">
+		<batchlet ref="B18B0036">
+			<properties>
+				<property name="executeMode"
+					value="#{jobParameters['executeMode']}" />
+				<property name="executeDate"
+					value="#{jobParameters['executeDate']}" />
+			</properties>
+		</batchlet>
+	</step>
+</job>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<job id="B18B0077"
+          xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
+          version="1.0">
+
+          <step id="B18B0077">
+                    <batchlet ref="B18B0077" >
+                              <properties>
+                                        <property name="jobid" value="B18B0077" />
+                                        <property name="param" value="#{jobParameters['mode']}" />
+                              </properties>
+                    </batchlet>
+          </step>
+</job>
